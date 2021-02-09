@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -e
+
+npm run build
+
+cd build/
+
+git init
+
+git add -A
+
+git commit -m 'Deploy'
+
+git push -f git@github.com:aboqasem/ai-luminance-react.git main:gh-pages
+
+cd -
+
+rm -rf build/
