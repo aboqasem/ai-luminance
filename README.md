@@ -1,3 +1,5 @@
-# AI Luminance
+# [AI Luminance](https://ai-luminance.aboqasem.dev/)
 
-### [App](https://aboqasem.github.io/ai-luminance-react/)
+<p align="center">
+  <img src="docs/images/hero.gif" height="250">
+</p>
