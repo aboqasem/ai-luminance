@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -e
+
+npm run build
+
+netlify deploy --dir=build --prod
+
+rm -rf build/
